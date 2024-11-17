@@ -1,10 +1,12 @@
 FROM openjdk:22-jdk-slim
 
-# Install wget to download the JAR file
-RUN apt-get update && apt-get install -y wget
+# Add repository and install megatools
+RUN echo 'deb http://debian.mega.co.nz/ jessie main' >> /etc/apt/sources.list.d/mega.list
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E6F5C7B7
+RUN apt-get update && apt-get install -y wget megatools
 
-# Download the JAR file from Mega using wget
-RUN wget --no-check-certificate 'https://mega.nz/file/omEHjZoY#duk-ddNshbqSObL0A0VHw-YEURDVQ7X_1z-Ua28TEJA' -O app.jar
+# Download the JAR file using megadl
+RUN megadl 'https://mega.nz/file/omEHjZoY#duk-ddNshbqSObL0A0VHw-YEURDVQ7X_1z-Ua28TEJA' -o app.jar
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
