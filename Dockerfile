@@ -1,14 +1,10 @@
-# Use an official OpenJDK runtime as a parent image
-FROM openjdk:17-jdk-slim
+FROM openjdk:22-jdk-slim
 
-# Set the working directory inside the container
-WORKDIR /app
+# Install wget to download the JAR file
+RUN apt-get update && apt-get install -y wget
 
-# Copy the Spring Boot JAR file into the container
-COPY target/elgharabwy-22.0.0.jar app.jar
+# Download the JAR file from MediaFire
+RUN wget -O app.jar https://download856.mediafire.com/4jedwdgk60ng/tpqftusq1thobh2/elgharabwy-22.0.0.jar
 
-# Expose the port the app will run on
-EXPOSE 8080
-
-# Command to run the application
-CMD ["java", "-jar", "app.jar"]
+# Run the application
+ENTRYPOINT ["java", "-jar", "app.jar"]
