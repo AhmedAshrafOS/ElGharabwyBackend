@@ -41,7 +41,7 @@ public class GoogleSheetsService {
         }
 
         // If no sheet exists, clone `Sheet1` and rename it to the date
-        int sheetId = sheets.getFirst().getProperties().getSheetId(); // Assuming Sheet1 is the first sheet
+        int sheetId = sheets.get(0).getProperties().getSheetId(); // Assuming Sheet1 is the first sheet
         DuplicateSheetRequest duplicateRequest = new DuplicateSheetRequest()
                 .setSourceSheetId(sheetId)
                 .setNewSheetName(date);
