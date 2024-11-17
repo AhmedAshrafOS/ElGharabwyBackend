@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "elgharabwyclinc",
+  "private_key_id": "4fd894f5328fe12b9009b8cab63295539d76e932",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+eNqQnNr4wzV2\nwURXWi0iKBkYa/eJBz3QCwVo16KIT8e4WqmuUMmIQWWDRFtVYLs20o34llSi5uaw\nWtyZ0heRxZIx9fa2NZ4OeQpimtSLTZ010YyWPCLEc2NzBDh0unnmH2nNP82Uir6z\n+QaB6i0mO3v0j/pT522FGBkxXlybLpppomI9rghcBwLFURtKP7H5+A2ppZ8u/ZhW\n2H2WTfL7tjQ1di7U0AkvohM1vLXjfNrbslZKvc5H2iehT8uEcZPwtbifvMrc5Ro4\nj058XCzPb3umdKfOaW6KFYJdsmoduGZkjnKqbukgld5eVOpcqiOhIemHkSZbtiRy\nmzO/Q52nAgMBAAECggEAU0KxCBYJAkUS0d6Z6TVaFVxB3BMWGag4tQCcVMAuJDf7\nrfKzyac28YDkxwTSh/fI3qYbuVa9mJgmr2CInhTgiLA8v+os9mlpthnjGEdmMZ6z\n4hq/wcx3xjhKeLSXmS8KqjWBIl+Jli0wP6vT1GZxZg0KmlV1r8eycEOgf5woDw0G\nRddRgMa+vjQi8e4ltzgFzkqIBqEc2sT+3+wBvybeU0efT3FByp3QQD5ekR4dnvP9\nwCtL3c+nlq6sOlX44mvbfNqa7AaJ3UdJE3NDQcOmUHMRWY6gDE1ghzfh65S8X8Cn\nu02x1u4TSdfNIl6kRktLthe65nk44erDv1enfma/wQKBgQDx+GT/sHyQfgVXca4f\nkM2SP2l1ubCoKZ28amI51qXIUn5DPEIynF1ah5JWstIoRUgvge0jlSElW3wHVBcq\nt1s0D161QVMiLhd9oHftUozPfBCh8vVVy8d0EGUIT7NWXLs0UumXI7KibpFF1TbP\n63r73kRFUktgLm5hcZED9/yvbQKBgQDJhBARMmaWom5SRPjFxjDhsR4V9gXysm5t\nkrfgR7GgKzPqML6XGe0Ldz9Ja20aML4ZeiUrw+DPwaIV7UObyx1mKjQg+ixE7CFE\nkULbJiyDZHGiwblIeeX+AjqCvsybU8gDR7ZTg5c5r2qwwDOP2n2PaDAPByAtTn1m\nHy1w2apQ4wKBgQClVjJFGGX1IXcq6g2tmfctwFCiVZClR1J1xUd69/VtrRiDfrBI\n/tk3G73dqfC5/aU2eRP9pU/xw9I6+7WcxY73Qq1XMtzIVTBN8hEgQ7DdsYt37Zi/\n2C9gWjd+9162W0S7mw/r60OLg/uV+PusFN6DLbv+lh3VCcT4pm4NhSzO/QKBgHPP\nkexQKuUnNH/TY6VF4ZHTWJcGbSStpwkR6NrcWRjTu2I74Uy1eaW9QoHPW0RR/u5l\nZDdiuzCq95viX5iJgrvURWEuZYK2sefWE7YemjZo42XGL9WXOLZiUX4SaURbQfeg\nnwgf+CkOxyINU5S43LAuEHCSh8uB8E9gW50feuJBAoGAN2yMGs36kMXJt4VX0qVf\nYPhuwcqAop7WFx8mcNEQgiyZQWRl4ZZgb015Z0DbBwyTR4UiJ7TOqq4mDfWMjGDJ\nBRG6YYGyNSPKAJJ8BoBD/WR8xG1F1FhiNXSaekfjsBODf3PjFqXaQ9252buyX9pc\nD69ZBPaf0Rxe8Svp+UHX5Xg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "elgharabwy-671@elgharabwyclinc.iam.gserviceaccount.com",
+  "client_id": "102317042680090421243",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/elgharabwy-671%40elgharabwyclinc.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
