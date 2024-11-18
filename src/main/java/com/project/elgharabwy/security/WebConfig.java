@@ -18,7 +18,7 @@ public class WebConfig {
         // Allow your React app's domain during development
             config.setAllowedOrigins(Arrays.asList(
                 "https://elgharabwy-clinc.netlify.app",
-                "http://localhost:3030"
+                 "http://localhost:3000"
             ));
         config.addAllowedHeader("x-client-id"); // Or add specific headers like "x-client-id"
         config.addAllowedMethod("*");
