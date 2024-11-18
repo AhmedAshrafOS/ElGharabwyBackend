@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://elgharabwy-clinc.netlify.app"})
 @RestController
 @RequestMapping("/api/blog")
 public class BlogRestController {
