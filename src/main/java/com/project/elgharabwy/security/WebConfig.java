@@ -16,7 +16,10 @@ public class WebConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         // Allow your React app's domain during development
-        config.setAllowedOrigins(Arrays.asList("http://localhost:3000"));
+            config.setAllowedOrigins(Arrays.asList(
+                "https://elgharabwy-clinc.netlify.app",
+                "http://localhost:3030"
+            ));
         config.addAllowedHeader("x-client-id"); // Or add specific headers like "x-client-id"
         config.addAllowedMethod("*");
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS")); // RESTful API methods
