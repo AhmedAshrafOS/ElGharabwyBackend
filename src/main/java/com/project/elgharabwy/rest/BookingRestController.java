@@ -22,7 +22,7 @@ import java.util.Map;
 @CrossOrigin(
         origins = {"http://localhost:3000", "https://elgharabwy-clinc.netlify.app"},
         allowedHeaders = {"x-client-id", "Content-Type", "Authorization"},
-        methods = { RequestMethod.POST}
+        methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS}
 )
 @RestController
 @RequestMapping("/api/bookings")
