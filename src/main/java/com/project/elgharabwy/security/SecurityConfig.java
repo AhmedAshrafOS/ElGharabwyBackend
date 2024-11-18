@@ -30,7 +30,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(Arrays.asList("https://elgharabwy-clinc.netlify.app")); // React app's origin
+        config.setAllowedOrigins(Arrays.asList("https://elgharabwy-clinc.netlify.app","http://localhost:3030")); // React app's origin
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("Content-Type", "Authorization"));
         config.addAllowedHeader("x-client-id"); // Or add specific headers like "x-client-id"
