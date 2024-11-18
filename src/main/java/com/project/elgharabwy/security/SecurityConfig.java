@@ -32,7 +32,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
             config.setAllowedOrigins(Arrays.asList(
                 "https://elgharabwy-clinc.netlify.app",
-                "http://localhost:3030"
+                "http://localhost:3000"
             ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("Content-Type", "Authorization"));
